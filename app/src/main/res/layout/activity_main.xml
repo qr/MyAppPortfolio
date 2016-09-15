@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="it.soepel.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/my_nanodegree_apps"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/popular_movies"
+        android:id="@+id/buttonMovies"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:onClick="buttonPopularMovies"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stock_hawk"
+        android:id="@+id/buttonStockHawk"
+        android:layout_below="@+id/buttonMovies"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonStockHawk"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/buttonBuildItBigger"
+        android:layout_below="@+id/buttonStockHawk"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonBuildItBigger"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_your_app_material"
+        android:id="@+id/buttonMakeYourAppMaterial"
+        android:layout_below="@+id/buttonBuildItBigger"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonMakeYourAppMaterial"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_obiquitous"
+        android:id="@+id/buttonGoUbiquitous"
+        android:layout_below="@+id/buttonMakeYourAppMaterial"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonGoUbiquitous"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/buttonCapstone"
+        android:layout_below="@+id/buttonGoUbiquitous"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonCapstone"/>
+
+</RelativeLayout>
